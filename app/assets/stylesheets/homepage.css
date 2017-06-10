@@ -2,3 +2,22 @@
   max-width: 10%;
   max-height: 10%;
 }
+
+.testing {
+  background-color: green;
+  width: 150px;
+}
+
+.details-video {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.purchase {
+  margin-left: 15px;
+  margin-top: 100%;
+}
+
+.show-grid {
+  border: 1px solid black;
+}
