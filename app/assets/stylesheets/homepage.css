@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-image: url('box-lid.png');
+  background-image: url('../../public/box-lid.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
