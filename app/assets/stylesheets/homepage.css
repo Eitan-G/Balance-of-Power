@@ -4,33 +4,30 @@ html,body {
 
 html {
   overflow: auto;
-  border: 1px solid black;
 }
 
 body {
   background-image: url('box-lid.png');
-  background-size: cover;
-  background-color: #cccccc;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .logo-img {
-  max-width: 10%;
-  max-height: 10%;
-}
-
-.testing {
-  background-color: green;
-  width: 150px;
-}
-
-.details-video {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  max-width: 10vw;
+  max-height: 10vh;
 }
 
 .purchase {
-  margin-left: 15px;
-  margin-top: 100%;
+  position: absolute;
+  top: 5vh;
+  right: 2vw;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }
 
 .show-grid {
