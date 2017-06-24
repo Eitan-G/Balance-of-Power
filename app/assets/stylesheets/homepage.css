@@ -6,21 +6,39 @@ html {
   overflow: auto;
 }
 
-body {
-  background-image: url('box-lid.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+.box-lid {
+  width: 100%;
+  position: relative;
 }
 
-.logo-img {
+.header {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  display: -webkit-box;
+  padding: 20px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo img {
   margin-left: 10px;
   max-width: 10vw;
   max-height: 10vh;
 }
 
+.box2 {
+  -webkit-box-flex: 1;
+}
+
 .purchase {
-  position: absolute;
+  display: inline-block;
+}
+
+.purchase a {
+  border: 1px solid black;
   top: 5vh;
   right: 2vw;
 }
@@ -28,4 +46,23 @@ body {
 footer {
   position: absolute;
   bottom: 0;
+}
+
+/* responsive youtube video */
+.video-container {
+  border: 1px solid black;
+	position: relative;
+	padding-bottom: 50%;
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+  max-width: 854px;
+  max-height: 480px;
 }
