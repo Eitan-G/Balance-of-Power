@@ -2,8 +2,26 @@ html,body {
   height: 100%;
 }
 
-html {
-  overflow: auto;
+nav {
+  border: 1px solid black;
+  text-align: center;
+  height: 5vh;
+  min-height: 50px;
+  background-color: #c3c3c3;
+}
+
+nav a {
+  margin-top: 10px;
+  margin-left: 1vw;
+  display: inline-block;
+  width: 115px;
+  height: 25px;
+  background: #4E9CAF;
+  text-align: center;
+  padding: 3px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
 }
 
 .box-lid {
@@ -12,38 +30,18 @@ html {
 }
 
 .header {
-  width: 100%;
   position: absolute;
   z-index: 1;
-  display: -webkit-box;
   padding: 20px;
 }
 
 .logo {
-  display: inline-block;
-}
-
-.logo img {
+  left: 1vw;
   margin-left: 10px;
   max-width: 10vw;
   max-height: 10vh;
 }
 
-.box2 {
-  -webkit-box-flex: 1;
-}
-
-.purchase {
-  display: inline-block;
-}
-
-.purchase a {
-  border: 1px solid black;
-  top: 5vh;
-  right: 2vw;
-}
-
-/* responsive youtube video */
 .video-container {
 	position: relative;
   margin-bottom: 10%;
@@ -71,6 +69,6 @@ footer {
   color: #FFFFFF;
 }
 
-footer * {
+footer p {
   display: inline-block;
 }
