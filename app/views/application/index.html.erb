@@ -4,20 +4,24 @@
   <a href="https://www.amazon.com/">Purchase</a>
 </nav>
 
-<div class='header'>
-  <img class='logo' src='logo.png'/>
-</div>
+<main>
+  <div class="cover"></div>
 
-<div class="video-container">
-  <%= image_tag "box-lid.png", class: "box-lid" %>
-  <div class="about">
-    <iframe src="https://www.youtube.com/embed/CsR3KVgBzSM" allowfullscreen id="youtube"></iframe>
+  <div class='header'>
+    <img class='logo' src='logo.png'/>
   </div>
-</div>
 
-<div >
-</div>
+  <div class="about">
+    <%= image_tag "box-lid.png", class: "box-lid" %>
+    <div class="popup">
+      <iframe src="https://www.youtube.com/embed/CsR3KVgBzSM" allowfullscreen id="youtube"></iframe>
+    </div>
+  </div>
 
-<footer id='contact'>
-  <p>Contact: email@domain.com</p>
-</footer>
+  <div >
+  </div>
+
+  <footer id='contact'>
+    <p>Contact: email@domain.com</p>
+  </footer>
+</main>
