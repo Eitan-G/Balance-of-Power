@@ -45,8 +45,6 @@ nav a {
 .about {
   max-width: 100%;
   position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
   top: 0;
   left: 0;
 }
@@ -81,4 +79,8 @@ footer {
   width: 100%;
   bottom: 0;
   color: #FFFFFF;
+}
+
+footer p {
+  display: inline-block;
 }
