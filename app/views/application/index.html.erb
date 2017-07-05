@@ -1,5 +1,5 @@
 <nav>
-  <a href="#about">About</a>
+  <a href="#about" onclick="popUp()">About</a>
   <a href="#contact">Contact</a>
   <a href="https://www.amazon.com/">Purchase</a>
 </nav>
@@ -8,12 +8,14 @@
   <img class='logo' src='logo.png'/>
 </div>
 
-<div>
+<div class="video-container">
   <%= image_tag "box-lid.png", class: "box-lid" %>
+  <div class="about">
+    <iframe src="https://www.youtube.com/embed/CsR3KVgBzSM" allowfullscreen id="youtube"></iframe>
+  </div>
 </div>
 
-<div class="video-container" id="about">
-  <iframe src="https://www.youtube.com/embed/CsR3KVgBzSM" allowfullscreen id="youtube"></iframe>
+<div >
 </div>
 
 <footer id='contact'>
