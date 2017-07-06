@@ -3,8 +3,11 @@ html,body {
 }
 
 nav {
+  position: fixed;
+  z-index: 3;
   border: 1px solid black;
   text-align: center;
+  width: 100%;
   height: 5vh;
   min-height: 50px;
   background-color: #c3c3c3;
@@ -29,12 +32,6 @@ nav a {
   position: relative;
 }
 
-.header {
-  position: absolute;
-  z-index: 1;
-  padding: 20px;
-}
-
 .logo {
   left: 1vw;
   margin-left: 10px;
@@ -51,7 +48,7 @@ nav a {
 
 .cover {
   display: none;
-  z-index: 2;
+  z-index: 1;
   background-color: black;
   width: 100%;
   height: 100%;
@@ -65,7 +62,7 @@ nav a {
 }
 
 .popup iframe {
-  z-index: 3;
+  z-index: 2;
 	position: absolute;
 	top: 20%;
   left: 20%;
