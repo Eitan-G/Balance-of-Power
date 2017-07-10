@@ -13,7 +13,7 @@ nav {
   background-color: #c3c3c3;
 }
 
-nav a {
+a {
   margin-top: 10px;
   margin-left: 1vw;
   display: inline-block;
@@ -25,6 +25,10 @@ nav a {
   border-radius: 5px;
   color: white;
   font-weight: bold;
+}
+
+footer a {
+  color: black;
 }
 
 .box-lid {
